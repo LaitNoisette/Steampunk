@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Inscription</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" style="text/css" href="style2.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style>
+			body
+			{
+				background-image: url("Deco/Fond.png");
+				background-size: 10%;
+			}
+		</style>
+	</head>
+	<body>
+			<main>
+					<img src="Deco/Barre_Haut.png" alt="Barre déco" style="width:512px;height:128px;"> 
+					<h1 class="deco police_big"> Inscription </h1> 
+
+					<img src="Deco/Barre_Separation.png" alt="Barre déco" style="width:512px;height:128px;">
+                    
+                    <div class="row row-centered deco">
+                    	<div class="border col-xs-1 col-centered"></div>
+						<div class="col-xs-4 col-centered">
+							<fieldset>
+								<legend class="decalc decalh police_norm bordercol">Identité</legend>
+									<form class="police_small">
+									<ul> 
+										
+										<li> <label for="id"> Identifiant : </label> </li>
+										<li class="decal"> <input type="email" name="id" id="id" placeholder="Addresse Email"/> </li>
+										<li> <label for="id2"> Comfirmez votre Identifiant : </label> </li>
+										<li class="decal"> <input type="email" name="id" id="id2" placeholder="Confirmez votre addresse mail"/> </li>
+										<li> <label for="mdp"> Mot de Passe : </label> </li>
+										<li class="decal"><input type="password" id="mdp"/> </li>
+										<li> <label for="mdp2"> Confirmez votre Mot de Passe : </label> </li>
+										<li class="decal"><input type="password" id="mdp2"/> </li>	
+									</ul>
+									</form>
+							</fieldset>
+							<fieldset>
+								<legend class="decalc decalh police_norm bordercol">Comment nous avez-vous connu ?</legend>
+									<form class="police_small">
+										<ul>
+											<li class="decalc"><input type="radio" name="com" value="bouche" checked> Bouche à Oreille
+												<input type="radio" name="com" value="site"> Site Internet
+												<input type="radio" name="com" value="eve"> Evenements</li>
+										</ul>
+										
+									</form>
+							</fieldset>
+						</div>
+                        <div class="border col-xs-2 col-centered">
+                        </div>
+						<div class="col-xs-4 col-centered">
+							<fieldset>
+								<legend class="decalc police_norm bordercol">Adresse de Facturation</legend>
+									<form class="police_small">
+										<ul>
+											<li class="decalc"> 
+												<input type="radio" name="genre" value="homme" checked> M
+												<input type="radio" name="genre" value="madame"> Mme 
+												<input type="radio" name="genre" value="mademoiselle"> Mlle</li>
+											<li><label for="nom"> Nom </label> </li>
+											<li class="decal"><input type="text" id="nom" placeholder="NOM"/></li>
+											<li><label for="prenom"> Prénom</label></li>
+											<li class="decal"><input type="text" id="prenom" placeholder="Prénom"/></li>
+											<li><label for="adresse"> Adresse </label></li>
+											<li class="decal"><input type="text" id="adresse" placeholder="Adresse"/></li>
+											<li> <label for="cp"> Code Postal : </label> </li>
+											<li class="decal"> <input type="text" name="cp" id="id" placeholder="ex : 68000,51000"/> </li>
+											<li> <label for="ville"> Ville : </label> </li>
+											<li class="decal"><input type="text" id="ville"/> </li>
+											<li> <label for="pays"> Pays : </label> </li>
+											<li class="decal"> <select name="pays" id="pays">
+											<option value="france">France</option>
+											<option value="belgique">Belgique</option>
+											<option value="suisse">Suisse</option>
+											<option value="monaco">Monaco</option>
+											</select></li>
+											<li><label for="telephone">Téléphone</label></li>
+											<li class="decal"><input type="text" name="telephone"></li>
+										</ul>
+									</form>
+							</fieldset>
+						</div>
+						<div class="border col-xs-1 col-centered">
+                        </div>
+                    </div>
+
+                    <img src="Deco/Barre_Separation.png" alt="Barre déco" style="width:512px;height:128px;">
+
+					<div class="row row-centered deco">
+						<div class="border col-xs-3 col-centered"></div>
+							<div class="col-xs-6 col-centered">
+								<fieldset>
+									<legend class="decalc police_norm bordercol">VALIDATION</legend>
+									<form class="police_small">
+										<ul>
+											
+											<li class="g decalc"><input type="checkbox" name="newsletter" value="yes"> Oui, je souhaite m'inscrire à la newsletter qui me permettra de recevoir par e-mail les nouveautés et de m'informer des évenements exclusifs proposés aux abonnés !</li>
+											<li class="g decalc"><input type="checkbox" name="exact" value="yes2"> Je certifie exactes les informations renseignées dans les champs ci-dessus et conforme à chaque libellé et accepte que celles-ci servent de base à la facturation de mes prochaines commandes.</li>
+											<li class="decal"> <input type="button" onclick="alert('Félicitation ! Vous êtes inscrit, un mail vous a été envoyé afin de confirmer votre inscription.')" value="Valider"></li>
+										</ul>
+									</form>
+								</fieldset>
+							</div>
+
+                        <div class="border col-xs-3 col-centered"></div>
+					</div>
+
+					<img src="Deco/Barre_Bas.png" alt="Barre déco" style="width:512px;height:128px;">
+			</main>
+	</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Inscription</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" style="text/css" href="style2.css">
+	</head>
+	<body>
+			<main>
+				<p> Inscription </p> 
+				<div class="flexV">
+				
+						<section>
+								<article class="border taille">
+									<form>
+									<ul> 
+										<li> Identité </li>
+										<li> <label for="id"> Identifiant : </label> </li>
+										<li> <input type="email" name="id" id="id" placeholder="Addresse Email"/> </li>
+										<li> <label for="id2"> Comfirmez votre Identifiant : </label> </li>
+										<li> <input type="email" name="id" id="id2" placeholder="Comfirmez votre addresse mail"/> </li>
+										<li> <label for="mdp"> Mot de Passe : </label> </li>
+										<li><input type="password" id="mdp"/> </li>
+										<li> <label for="mdp2"> Mot de Passe : </label> </li>
+										<li><input type="password" id="mdp2"/> </li>	
+									</ul>
+									</form>
+								</article>
+						</section>
+						<section class="taille border">
+								<article class="">
+									<form>
+										<ul>
+											<li> Addresse de Facturation </li>
+											<li> 
+												<input type="radio" name="genre" value="homme" checked> M
+												<input type="radio" name="genre" value="madame"> Mme 
+												<input type="radio" name="genre" value="mademoiselle"> Mlle</li>
+											<li><label for="nom"> Nom </label> </li>
+											<li><input type="text" id="nom" placeholder="NOM"/></li>
+											<li><label for="prenom"> Prénom</label></li>
+											<li><input type="text" id="prenom" placeholder="Prénom"/></li>
+											<li><label for="adresse"> Adresse </label></li>
+											<li><input type="text" id="adresse" placeholder="Adresse"/></li>
+											<li> <label for="cp"> Code Postal : </label> </li>
+											<li> <input type="text" name="cp" id="id" placeholder="ex : 68000,51000"/> </li>
+											<li> <label for="ville"> Ville : </label> </li>
+											<li><input type="text" id="ville"/> </li>
+											<li> <label for="pays"> Pays : </label> </li>
+											<li> <select name="pays" id="pays">
+											<option value="france">France</option>
+											<option value="belgique">Belgique</option>
+											<option value="suisse">Suisse</option>
+											<option value="monaco">Monaco</option>
+											</select></li>
+											<li><label for="telephone">Téléphone</label></li>
+											<li><input type="text" name="telephone"></li>
+										</ul>
+									</form>
+								</article>
+								<article>
+									<form>
+										<ul>
+											<li>Comment nous avez-vous connu ?</li>
+											<li><input type="radio" name="com" value="bouche" checked> Bouche à Oreille
+												<input type="radio" name="com" value="site"> Site Internet
+												<input type="radio" name="com" value="eve"> Evenements</li>
+										</ul>
+										
+									</form>
+								</article>			
+						</section>
+					
+			
+								<section class="border taille">
+									<form>
+										<ul>
+											<li>VALIDATION</li>
+											<li class="g"><input type="checkbox" name="newsletter" value="yes">Oui, je souhaite m'inscrire à la newsletter qui me permettra de recevoir par e-mail les nouveautés et de m'informer des évenements exclusifs proposés aux abonnés !</li>
+											<li class="g"><input type="checkbox" name="exact" value="yes2"> Je certifie exactes les informations renseignées dans les champs ci-dessus et conforme à chaque libellé et accepte que celles-ci servent de base à la facturation de mes prochaines commandes.</li>
+											<li> <input type="button" onclick="alert('Félicitation ! Vous êtes inscrit, un mail vous a été envoyé afin de confirmer votre inscription.')" value="Valider"></li>
+										</ul>
+									</form>
+								</section>
+
+				</div>
+			</main>
+	</body>
+</html>

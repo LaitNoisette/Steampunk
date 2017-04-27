@@ -1,0 +1,102 @@
+header
+{
+    margin-left:10%;
+}
+header #rubrique
+{
+    display: flex;
+    margin-bottom: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+   
+}
+header h2
+{
+    margin-top: 20px;
+    width: 750px;
+    margin-right: 20px;
+}
+header h2 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+#rubrique input
+{
+    height: 20px; 
+    margin-top: 32px;
+}
+#barreRecherche
+{
+    width: 200px; 
+    height: 25px; 
+    margin-top: 20px; 
+}
+#boutonRecherche
+{
+    margin-top: 22px; 
+    width: 70px; 
+    height: 30px;
+}
+
+#rubrique a:hover
+{
+    text-decoration: none;
+	color: black;
+}
+#nomSite
+{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#bouton_recherche
+{
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  border: solid thin #929292;
+  text-shadow: none;
+  background: #AD8D54;   
+  padding: 3px 8px;
+  margin: 2px;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 13.1999998092651px;
+  margin-top: 20px;
+  color: #545C64;
+  border: 2px #545C64 solid;
+  background-color: #AD8D54;
+  height: 18px; 
+  margin-top: 32px; 
+  padding-top: 4px; 
+  padding-bottom: 0px;
+}
+#lienRecherche
+{   
+    text-align: center; 
+    text-decoration: none; 
+    color: #545C64;
+	border: 2px #545C64 solid;
+	background-color: #AD8D54;
+    height: 22px; 
+    margin-left: 0px; 
+    margin-top: 32px; 
+    padding-bottom: 0px; 
+    padding-top: 0px; 
+    width: 25px;
+}
+header div input
+{
+	color: #545C64;
+	border: 2px #545C64 solid;
+	background-color: #AD8D54;
+}
+@font-face {
+
+    font-family: 'GreatVictorian-Standard';
+
+    src: url('police/GreatVictorian-Standard.otf');
+
+}

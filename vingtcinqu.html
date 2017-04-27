@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="fr"><head>
+        <title> De 20 à 50 </title> <!--Nom de la page sur l'onglet de recherche-->
+        <meta charset="utf-8">
+        <link href="css/pagemenu.css" type="text/css" rel="stylesheet"><!--Lien vers le CSS-->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style>
+			body
+			{
+				background-image: url("Deco/Fond.png");
+				background-size: 10%;
+				
+			}
+		</style>
+    </head>
+
+    <body>
+
+        <header>
+			<div class="col-lg-12">
+
+      <a href="accueil.html"><img src="photos/Deco_Cote_G.png" style="width: 15%; margin-bottom: 0px;"><img src="photos/nomSite.png" id="nomSite" style="margin-bottom: 0px;"><img src="photos/Deco_Cote_D.png" style="width: 15%; margin-bottom: 0px;"></a>
+
+      <div id="rubrique"> <!--Le block des rubriques-->
+    
+
+        <h2 style="margin-right: 0px; width: 720px;">
+
+        <a href="Bibliothèque.html"><img src="photos/Librairie.png" style="width: 22%"></a>
+        <a href="agenda.html"><img src="photos/Agenda.png" style="width: 17%"></a>
+        <a href="inscription2.html"><img src="photos/espace.png" style="width: 37%"></a>
+
+        </h2>
+
+        <input type="text" id="barreRecherche" name="p" value="" autocomplete="off" placeholder="Recherche livre, film, événement ..." tabindex="1" style="height: 26px; margin-top: 30px; font-family: &quot;GreatVictorian-Standard&quot;,Georgia,serif; font-size: 20px;">
+
+        <a id="bouton_recherche" href="accueil.html" style="height: 26px; margin-top: 30px; padding-top: 0px; font-family: &quot;GreatVictorian-Standard&quot;,Georgia,serif; font-size: 20px; padding-bottom: 2px;">Recherche</a>
+
+        <a id="lienRecherche" href="recherche.html" style="margin-top: 30px; height: 26px; width: 33px;">. . .</a>
+
+      </div>
+			</div>
+<img style="width: 48%; margin-left:20.75%; height: 128px; margin-bottom: 0px;" alt="Barre déco" src="Deco/Barre_Haut.png">
+            <section class="titre">
+                <p style="margin-right: 10%" class="police_norm">De 20 à 50 euros</p>
+            </section>
+            <img style="width: 48%; margin-left:20.75%; height: 128px; margin-bottom: 0px;" alt="Barre déco" src="Deco/Barre_Separation.png">
+      
+  </header>
+       
+        <main>
+
+            
+            <nav style="margin-right: 15px;"> <!--Menu de gauche-->
+                <ul>
+                    <li>
+                        <a href="Auteurs.html" class="Categorie">Auteurs</a> <!--Filtre les livres selon le/les auteurs selectionné(s)-->
+                    </li>
+                    <li>
+                        <a href="Datesdeparution.html" class="Categorie">Dates de parution</a> <!--Filtre les livres selon le/les dates de parution selectionnée(s)-->
+                        <ul>
+                            <li>
+                                <a href="AVenir.html">Parutions à venir</a>
+                            </li>
+                            <li>
+                                <a href="Semaine.html">Cette semaine</a>
+                            </li>
+                            <li>
+                                <a href="DerniersJour.html">15 derniers jours</a>
+                            </li>
+                            <li>
+                                <a href="DernierMois.html">Le mois dernier</a>
+                            </li>
+                            <li>
+                                <a href="Annee.html">Cette année</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Categorie.html" class="Categorie">Notes des lecteurs</a> <!--Filtre les livres selon le/les notes lecteurs selectionnée(s)-->
+                        <ul>
+                            <li>
+                                <a href="Etoiles5.html">5 étoiles</a>
+                            </li>
+                            <li>
+                                <a href="Etoiles4.html">4 étoiles</a>
+                            </li>
+                            <li>
+                                <a href="Etoiles3.html">3 étoiles</a>
+                            </li>
+                            <li>
+                                <a href="Etoiles2.html">2 étoiles</a>
+                            </li>
+                            <li>
+                                <a href="Etoiles1.html">1 étoile</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Prix.html" class="Categorie">Prix</a><!--Filtre les livres selon le/les prix selectionné(s)-->
+                        <ul>
+                            <li>
+                                <a href="zerocinq.html">0 à 5 euros</a>
+                            </li>
+                            <li>
+                                <a href="cinqdix.html">5 à 10 euros</a>
+                            </li>
+                            <li>
+                                <a href="dixvingt.html">10 à 20 euros</a>
+                            </li>
+                            <li>
+                                <a href="vingtcinqu.html">20 à 50 euros</a>
+                            </li>
+                            <li>
+                                <a href="cinquplus.html">Plus de 50 euros</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Format.html" class="Categorie">Format de l'ouvrage</a><!--Filtre les livres selon le/les format d'ouvrage selectionné(s)-->
+                        <ul>
+                            <li>
+                                <a href="Ebook.html">Ebook</a>
+                            </li>
+                            <li>
+                                <a href="Poche.html">Poche</a>
+                            </li>
+                            <li>
+                                <a href="Relié.html">Relié</a>
+                            </li>
+                            <li>
+                                <a href="Broché.html">Broché</a>
+                            </li>
+                            <li>
+                        <a href="idee.html" class="Categorie" style="margin-top: 20px; border: 2px #545C64 solid;">Soumettre un ouvrage</a>
+                    </li>
+                        </ul>
+                    </li>
+                </ul>
+             
+            </nav>
+
+       
+
+            <a href="ordidesdieuxstephking.html"><!--Bloc-lien vers le livre-->
+                <div class="demo">
+                    <h1><strong>L'ordinateur des Dieux</strong></h1>
+                    <p><img class="livredemo" src="photos/SKordi.jpg" alt=""></p>
+                    <p>Auteur : Stephen King</p>
+                    <p>Résumé : Richard Hagstrom, professeur d'anglais et écrivain raté, a du mal à se faire une place entre une épouse dominatrice et un fils qui le méprise. Il est toujours amoureux de Belinda, la femme que son frère a épousée, et il adore leur fils Jon, un petit génie de l'électronique. Après que son frère, [...]</p>
+                </div>
+            </a>
+
+            <a href="mauvaisreveSK.html"><!--Bloc-lien vers le livre-->
+                <div class="demo">
+                    <h1><strong>Le bazar des mauvais rêves</strong></h1>
+                    <p><img class="livredemo" src="photos/reveSK.jpg" alt=""></p>
+                    <p>Auteur : Stephen King</p>
+                    <p>Résumé : Un homme qui revit sans cesse sa vie (et ses erreurs), un journaliste qui provoque la mort de ceux dont il prépare la nécrologie, une voiture qui dévore les badauds... 20 nouvelles pour la plupart inédites, précédées chacune d'une introduction du maître sur les coulisses de leur écriture.</p>
+                </div>
+            </a>
+
+            <a href="assassRobHob.html"><!--Bloc-lien vers le livre-->
+            <div class="demo">
+                <h1><strong>Le fou et l'assassin - Tome 4 : Le Retour de l'assassin</strong></h1>
+                <p><img class="livredemo" id="livre1" src="photos/assass.jpg" alt=""></p>
+                <p>Auteur : Robin Hobb</p>
+                <p>Résumé : Affaibli par le poids des années, FitzChevalerie cherche un moyen de secourir la dernière personne qui semble avoir encore besoin de lui en ce monde. Malgré l'envie du Fou d'aider son vieil ami à poursuivre les ravisseurs d'Abeille, son état de santé lui interdit tout nouveau danger. Et aujourd'hui [...]</p>
+            </div>
+        </a>
+     
+
+        
+        
+
+        </main>
+
+        <footer>
+    <div class="col-lg-12">
+      
+      <img src="Deco/Barre_Bas.png" alt="Barre déco" style="width: 48%; margin-left: 26%; height: 128px; margin-bottom: 50px; margin-top: 10px;">
+      <div id="haut">
+       <div id="partie_gauche">
+        <div> <!--Partie gauche-->
+          <p style="margin-bottom: 0px;">Inscrivez-vous à la newsletter!</p>
+          <input type="text" name="p" value="" autocomplete="off" tabindex="1" placeholder="Adresse mail" style="width: 60%; height: 30px; margin-bottom: 10px;"><br>
+          <input type="button" style="height: 30px;" value="S'inscrire" onclick="alert('Félicitation ! Vous êtes inscrit à la newsletter!')"></div>
+        </div>
+
+        <div class="partie_droite" style="padding-left: 80px; width: 400px;"> <!--Partie droite-->
+          <p>Information :<br></p>
+          <a href="boutique.html">Boutique</a><br>
+          <a href="nous_contacter.html">Nous contacter</a><br>
+          <a href="mention_légale.html">Mentions légales</a><br>
+          <a href="condition_utilisation.html">Condition d'utilisation et de vente</a>
+        </div>
+        <div class="partie_droite" style="margin-left: 0px; padding-left: 60px; width: 400px;">
+          <p>Rejoignez-nous sur :</p>
+          <a href="http://www.facebook.com"><img alt="Facebook" src="photos/fb.png"></a>
+          <a href="http://www.twitter.com"><img alt="Twitter" src="photos/twitter.png"></a>
+          <a href="http://www.plus.google.com"><img alt="Google+" src="photos/google+.png"></a><br>
+          <a href="http://www.pinterest.com"><img alt="pinterest" src="photos/pinterest.png"></a>
+          <a href="http://www.linkedin.com"><img alt="linkedin" src="photos/In.png"></a>
+          <a href="http://www.viadeo.com"><img alt="viadeo" src="photos/viadeo.png"></a>
+        </div>
+       </div>
+      
+
+      <div style="display: flex; width: 700px; margin-left: 22.5%; margin-top: 20px;"> <!--Ligne de paiement sécuriser avec les logos des moyens de paiement-->
+
+       <strong style="margin-top: auto; margin-bottom: auto; color: rgb(173, 141, 84); text-shadow: 0px 0px 2px rgb(84, 92, 100); width: 200px;">Paiement sécurisé</strong>
+       <div>
+       <img alt="CB" src="photos/cb.png" class="logo">
+       <img alt="visa" src="photos/visa.svg" class="logo">
+       <img alt="mastercard" src="photos/mastercard.png" style="width: 14%; height: 35px">
+       <img alt="paypal" src="photos/paypal.png" id="paypal">
+       </div>
+      
+      </div>
+
+      <p style="text-align: center; color: #AD8D54; text-shadow: 0px 0px 2px #545C64;">&copy; 2016-2016, Steampunk.fr</p> <!--Le copyright-->
+
+  </div></footer>
+
+    
+
+
+
+
+</body></html>
+
+
+

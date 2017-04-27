@@ -1,0 +1,313 @@
+body /**largeur à 80% de la page web avec un décalage de 10% à droite pour centrer le tout**/
+{
+    margin: 0px;
+}
+
+#notation {
+    float: left;
+}
+
+/*Mise en forme des étoiles de bases*/
+#notation a {
+    float: right;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color .4s;
+}
+
+/*Animation étoile*/
+#notation a:hover,
+#notation a:focus,
+#notation a:hover ~ a,
+#notation a:focus ~ a {
+    color: #AD8D54;
+    cursor: pointer;
+}
+
+main /**hauteur**/
+{
+
+    justify-content: center;
+    text-align: center;
+}
+
+#contact /**décal du block**/
+{
+    margin-left: 10%; 
+    width: 75%; 
+    padding-left: 5%;
+}
+#titre /**centrage et marge**/
+{
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+    font-family: 'GreatVictorian-Standard';
+    color: #AD8D54;
+    font-size: 40px;
+}
+main p
+{
+    color: #AD8D54;
+    font-size: 25px;
+    font-family: 'GreatVictorian-Standard';
+}
+#com /**taille de la case commentaire**/
+{
+    width: 70%; 
+    height: 300px;
+}
+.case1 /**taille pour nom, prénom et mail**/
+{
+    width: 30%;
+}
+#sujet /**largeur de la case sujet**/
+{
+    width: 60%;
+}
+#envoyer
+{
+    font-family: 'GreatVictorian-Standard';
+    width: 15%;
+    height: 40px;
+}
+@font-face {
+
+    font-family: 'GreatVictorian-Standard';
+
+    src: url('police/GreatVictorian-Standard.otf');
+
+}
+.police_norm
+{
+	font-size: 40px;
+}
+
+.police_small
+{
+	font-size: 25px;
+}
+
+main input
+{
+	color: black;
+	border: 2px #545C64 solid;
+	background-color: #AD8D54;
+}
+main textarea
+{
+    color: black;
+	border: 2px #545C64 solid;
+	background-color: #AD8D54;
+}
+
+
+footer
+{
+    width: 80%;
+    margin-left: 10%;
+}
+
+footer
+{
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'GreatVictorian-Standard',Georgia, serif;
+    font-size: 25px;
+}
+
+#partie_gauche
+{
+    width: 33%;
+    text-align: center;
+	color: #AD8D54;
+    text-shadow: 0px 0px 2px #545C64;
+}
+
+.partie_droite
+{
+    width: 33%;
+}
+.partie_droite p
+{
+    font-weight: bold; 
+    margin-bottom: 2px;
+    margin-bottom: 20px;
+	color: #AD8D54;
+    text-shadow: 0px 0px 2px #545C64;
+}
+.partie_droite a
+{
+	color: #AD8D54;
+    text-shadow: 0px 0px 2px #545C64;
+    text-decoration: none;
+}
+.partie_droite a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+footer div img
+{
+    width:10%;
+    height:30px;
+    border:0;
+    margin-left: 15px;
+}
+.logo
+{
+    width: 12%;
+    height: 35px;
+    border: 0;
+}
+#paypal
+{
+    width: 28%;
+    height: 35px;
+    border: 0;
+}
+#haut
+{
+    display: flex;
+}
+footer input
+{
+	color: black;
+	border: 2px #545C64 solid;
+    background-color: #AD8D54;
+    
+}
+
+header
+{
+    margin-left:10%;
+    font-family: 'GreatVictorian-Standard',Georgia, serif;
+}
+
+header #rubrique
+{
+    display: flex;
+    margin-bottom: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+   
+}
+header h2
+{
+    margin-top: 20px;
+    width: 750px;
+    margin-right: 20px;
+}
+header h2 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+#rubrique input
+{
+    height: 20px; 
+    margin-top: 32px;
+    background-color: #AD8D54;
+}
+
+header
+{
+    width: 90%;
+    font-family: 'GreatVictorian-Standard',Georgia, serif;
+}
+
+header #rubrique
+{
+    display: flex;
+    margin-bottom: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+   
+}
+header h2
+{
+    margin-top: 20px;
+    width: 750px;
+    margin-right: 20px;
+}
+header h2 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+#rubrique input
+{
+    height: 20px; 
+    margin-top: 32px;
+    background-color: #AD8D54;
+}
+#barreRecherche
+{
+    width: 200px; 
+    height: 25px; 
+    margin-top: 20px; 
+}
+#boutonRecherche
+{
+    margin-top: 22px; 
+    width: 70px; 
+    height: 30px;
+}
+
+#rubrique a:hover
+{
+    text-decoration: none;
+	color: black;
+}
+#nomSite
+{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#bouton_recherche
+{
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  border: solid thin #929292;
+  text-shadow: none;
+  background: #AD8D54;   
+  padding: 3px 8px;
+  margin: 2px;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 13.1999998092651px;
+  margin-top: 20px;
+  color: black;
+  border: 2px #545C64 solid;
+  background-color: #AD8D54;
+  height: 18px; 
+  margin-top: 32px; 
+  padding-top: 4px; 
+  padding-bottom: 0px;
+}
+#lienRecherche
+{   
+    text-align: center; 
+    text-decoration: none; 
+    color: black;
+	border: 2px #545C64 solid;
+	background-color: #AD8D54;
+    height: 22px; 
+    margin-left: 0px; 
+    margin-top: 32px; 
+    padding-bottom: 0px; 
+    padding-top: 0px; 
+    width: 25px;
+}
+header div input
+{
+	color: black;
+	border: 2px #545C64 solid;
+	background-color: black;
+}
+

@@ -1,0 +1,440 @@
+main
+{
+    font-family: 'GreatVictorian-Standard';
+}
+main div h4 a strong
+{
+    font-size: 30px;
+}
+main p
+{
+    font-family: 'GreatVictorian-Standard';
+    font-size: 25px;
+}
+main span
+{
+    font-family: 'GreatVictorian-Standard';
+    font-size: 25px;
+}
+main * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+main a {
+    text-decoration: none;
+    color: #AD8D54;
+    font-family: 'GreatVictorian-Standard';
+    font-size: 25px; 
+}
+main a:hover,
+main a:focus {
+    text-decoration: none;
+    color: #AD8D54;
+}
+
+main h3 {
+    font-weight: 100;
+}
+
+/* LAYOUT CSS */
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+#layout {
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    top: auto;
+    margin: 3em auto;
+}
+
+.sidebar {
+    background: rgb(61, 79, 93);
+    color: #AD8D54;
+}
+
+.brand-title,
+.brand-tagline {
+    margin: 0;
+}
+.brand-title {
+    text-transform: uppercase;
+}
+.brand-tagline {
+    font-weight: 300;
+    color: #AD8D54;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.nav-item a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    color: #AD8D54;
+    margin-top: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+}
+
+.sh-events {
+    text-align: center;
+    font-size: 40px;
+
+}
+.sh-ds
+{
+    color: #AD8D54;
+}
+
+.noo-sh-list-event{
+box-sizing: border-box;
+color: #AD8D54;
+font-family: Dosis,serif;
+
+font-style: normal;
+font-weight: 400;
+line-height: 27.2px;
+padding-left: 90px;
+padding-right: 10px;
+
+}
+.noo-view-event{
+    text-align: center;
+
+}
+.noo-view-event a{
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgb(31, 31, 31);
+background-image: none;
+background-origin: padding-box;
+background-position: 0% 0%;
+background-repeat: repeat;
+background-size: auto auto;
+border-bottom-color: rgb(25, 25, 25);
+border-bottom-style: solid;
+border-bottom-width: 3px;
+box-sizing: border-box;
+display: inline-block;
+
+font-style: normal;
+font-weight: 400;
+height: 50px;
+line-height: 50px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 27px;
+padding-right: 27px;
+padding-top: 0px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.noo-shevent-content{
+box-sizing: border-box;
+color: #AD8D54;
+
+font-style: normal;
+font-weight: 400;
+line-height: 27.2px;
+padding-left: 40px;
+padding-right: 10px;
+}
+.noo-shevent-content a{
+
+font-style: normal;
+font-weight: 400;
+line-height: 16.8px;
+text-transform: uppercase;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    color: #AD8D54;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 150%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.content {
+    padding: 2em 1em 0;
+}
+
+.post {
+    padding-bottom: 2em;
+}
+.post-title {
+
+    color: #AD8D54;
+    margin-bottom: 0.2em;
+}
+.post-avatar {
+    border-radius: 50px;
+    float: right;
+    margin-left: 1em;
+}
+.post-description {
+
+    color: #AD8D54;
+    line-height: 1.8em;
+}
+.post-meta {
+    color: #AD8D54;
+  
+    margin: 0;
+}
+
+.post-category {
+    margin: 0 0.1em;
+    padding: 0.3em 1em;
+    color: #AD8D54;
+    background: #999;
+
+}
+    .post-category-design {
+        background: #5aba59;
+    }
+    .post-category-pure {
+        background: #4d85d1;
+    }
+    .post-category-yui {
+        background: #8156a7;
+    }
+    .post-category-js {
+        background: #df2d4f;
+    }
+
+.post-images {
+    margin: 1em 0;
+}
+.post-image-meta {
+    margin-top: -3.5em;
+    margin-left: 1em;
+    color: #AD8D54;
+    text-shadow: 0 1px 1px #333;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em 0;
+}
+.footer a {
+    color: #AD8D54;
+
+}
+.footer .pure-menu a:hover,
+.footer .pure-menu a:focus {
+    background: none;
+}
+
+@media (min-width: 48em) {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+}
+
+header
+{
+    margin-left:10%;
+    font-family: 'GreatVictorian-Standard',Georgia, serif;
+}
+
+header #rubrique
+{
+    display: flex;
+    margin-bottom: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+   
+}
+header h2
+{
+    margin-top: 20px;
+    width: 750px;
+    margin-right: 20px;
+}
+header h2 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+#rubrique input
+{
+    height: 20px; 
+    margin-top: 32px;
+    background-color: #AD8D54;
+}
+#barreRecherche
+{
+    width: 200px; 
+    height: 25px; 
+    margin-top: 20px; 
+}
+#boutonRecherche
+{
+    margin-top: 22px; 
+    width: 70px; 
+    height: 30px;
+}
+
+#rubrique a:hover
+{
+    text-decoration: none;
+	color: black;
+}
+#nomSite
+{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#bouton_recherche
+{
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  border: solid thin #929292;
+  text-shadow: none;
+  background: #AD8D54;   
+  padding: 3px 8px;
+  margin: 2px;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 13.1999998092651px;
+  margin-top: 20px;
+  color: black;
+  border: 2px #545C64 solid;
+  background-color: #AD8D54;
+  height: 18px; 
+  margin-top: 32px; 
+  padding-top: 4px; 
+  padding-bottom: 0px;
+}
+#lienRecherche
+{   
+    text-align: center; 
+    text-decoration: none; 
+    color: black;
+	border: 2px #545C64 solid;
+	background-color: #AD8D54;
+    height: 22px; 
+    margin-left: 0px; 
+    margin-top: 32px; 
+    padding-bottom: 0px; 
+    padding-top: 0px; 
+    width: 25px;
+}
+header div input
+{
+	color: black;
+	border: 2px #545C64 solid;
+	background-color: black;
+}
+
+@font-face {
+
+    font-family: 'GreatVictorian-Standard';
+
+    src: url('police/GreatVictorian-Standard.otf');
+
+}
+footer
+{
+    width: 80%;
+    margin-left: 10%;
+}
+
+footer
+{
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'GreatVictorian-Standard',Georgia, serif;
+    font-size: 25px;
+}
+
+#partie_gauche
+{
+    width: 33%;
+    text-align: center;
+	color: #AD8D54;
+    text-shadow: 0px 0px 2px #545C64;
+}
+
+.partie_droite
+{
+    width: 33%;
+}
+.partie_droite p
+{
+    font-weight: bold; 
+    margin-bottom: 2px;
+    margin-bottom: 20px;
+	color: #AD8D54;
+    text-shadow: 0px 0px 2px #545C64;
+}
+.partie_droite a
+{
+	color: #AD8D54;
+    text-shadow: 0px 0px 2px #545C64;
+    text-decoration: none;
+}
+.partie_droite a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+footer div img
+{
+    width:10%;
+    height:30px;
+    border:0;
+    margin-left: 15px;
+}
+.logo
+{
+    width: 12%;
+    height: 35px;
+    border: 0;
+}
+#paypal
+{
+    width: 28%;
+    height: 35px;
+    border: 0;
+}
+#haut
+{
+    display: flex;
+}
+footer input
+{
+	color: black;
+	border: 2px #545C64 solid;
+    background-color: #AD8D54;
+    
+}

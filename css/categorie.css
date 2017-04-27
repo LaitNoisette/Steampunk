@@ -1,0 +1,99 @@
+/*=============================================
+= Mise en forme du Menu de Navigation latéral =
+=============================================*/
+
+nav /*Mise en forme des menus et sous menus*/
+{
+    padding: 1%; /*Pas de marge*/
+    margin: 2%;/*Pas de marge*/
+    margin-left: 5%;
+    list-style: none;/*Pas de puces*/
+    line-height: 21px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;/*changement de police*/
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+}
+
+nav a:hover /*Animation sur le menu*/
+{
+    background-color: #492221;
+}
+
+nav ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 21px;
+    text-align: center;
+}
+
+nav a  /*Mise en forme des mises liens dans les menus*/
+{
+    display: block;/*les liens sont considérés comme un block*/
+    padding: 0;
+    text-decoration: none; /*enlève le soulignement des liens*/
+    color: white;
+    background-color: #93744E;
+}
+
+nav ul li a
+{
+    color: white;
+    padding: 1%;
+    width: 120%;
+    margin-left:0%;
+    margin-top: 0%;
+    float: right;
+}
+
+.Categorie /*Mise en forme des entête de liste*/
+{
+    border: 1px solid #492221;
+}
+
+nav ul li a h1
+{
+    border-bottom: 1px solid #492221;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+/*=============================================
+=   Mise en forme des block-liens auteurs     =
+=============================================*/
+
+#titre
+{
+    text-align: center;
+}
+
+.block
+{
+
+    background-color: #492221;
+    border: 2px solid black;
+    float: right;
+    width: 70%;
+    height: 20%;
+    margin: 2%;
+    margin-right: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+.block h1
+{
+    padding-left: 1%;
+    color: #AD8D54;
+}
+
+.block:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}

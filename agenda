@@ -1,0 +1,26 @@
+{
+  "htmlFiles": [
+    {
+      "fileId": "0B2xFTS2RktPsRFhyeXp0eDhXc00",
+      "contentType": "text/html",
+      "name": "agenda.html",
+      "path": "0B2xFTS2RktPsU0ppdllTUnp0THM/"
+    }
+  ],
+  "cssFiles": [
+    {
+      "fileId": "0B2xFTS2RktPsRlNDZjNBOThUbzQ",
+      "contentType": "text/css",
+      "name": "css/agenda.css",
+      "path": "0B2xFTS2RktPsU0ppdllTUnp0THM/"
+    }
+  ],
+  "javascriptFiles": [
+    {
+      "fileId": "0B2xFTS2RktPsTE1takpOSWpGWEU",
+      "contentType": "text/javascript",
+      "name": "css/code.js",
+      "path": "0B2xFTS2RktPsU0ppdllTUnp0THM/"
+    }
+  ]
+}

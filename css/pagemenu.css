@@ -1,0 +1,359 @@
+/*=============================================
+= Mise en forme du Menu de Navigation latéral =
+=============================================*/
+
+main nav /*Mise en forme des menus et sous menus*/
+{
+    padding: 1%; /*Pas de marge*/
+    margin: 2%;/*Pas de marge*/
+    margin-left: 5%;
+    list-style: none;/*Pas de puces*/
+    line-height: 21px;
+    text-align: center;
+    font-family: 'GreatVictorian-Standard';/*changement de police*/
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+
+main nav a:hover /*Animation sur le menu*/
+{
+    text-decoration: none;
+    color: black;
+}
+
+main nav ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 21px;
+    text-align: center;
+}
+
+main nav a  /*Mise en forme des mises liens dans les menus*/
+{
+    display: block;/*les liens sont considérés comme un block*/
+    padding: 0;
+    text-decoration: none; /*enlève le soulignement des liens*/
+    color: black;
+    background-color: #93744E;
+}
+
+main nav ul li a
+{
+    color: black;
+    padding: 1%;
+    width: 120%;
+    margin-left:0%;
+    margin-top: 0%;
+    float: right;
+}
+
+.Categorie /*Mise en forme des entête de liste*/
+{
+    border: 1px solid #492221;
+}
+
+main nav ul li a h1
+{
+    border-bottom: 1px solid #492221;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+
+
+/*=============================================
+=   Mise en forme des block-liens auteurs     =
+=============================================*/
+
+/*Mise en forme des bloc-liens des livres*/
+main a
+{
+    color: black;
+    text-decoration: none; /*Retrait de la mise en forme typique des liens*/
+
+}
+
+/*Mise en forme du bloc*/
+main div
+{
+    color: #AD8D54;
+    background-color: #492221;
+    border: 3px solid #AD8D54;
+    margin: 3%;
+    margin-right: 5%;
+    height: 40%;
+    transition: 1s ease;
+    width: 70%;
+    float: right;
+}
+
+main div:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+/*Mise en forme du titre des livres dans les bloc-liens*/
+main div h1
+{
+    padding-left: 1%;
+    font-size: 1.8em;
+}
+
+/*Mise en forme du texte dans les bloc-liens*/
+main div p
+{
+    padding: 0.5%;
+    margin: 0.5%;
+    font-size: 20px;
+}
+
+/*Mise en forme des images des livres dans les bloc-liens*/
+.livredemo
+{
+    height: 58%;
+    width: 14%;
+    margin: 1%;
+    float: left;
+}
+main a div p img
+{
+    height: 150px; 
+    width: 110px;
+}
+
+.titre
+{
+    text-align: center;
+}
+
+.titre h1,
+p
+{
+    color: #AD8D54;
+}
+
+main input
+{
+	color: black;
+	border: 2px #545C64 solid;
+	background-color: #AD8D54;
+}
+main
+{
+    font-family: 'GreatVictorian-Standard';
+    width: 80%;
+    margin-left: 10%;
+}
+
+.police_big
+{
+	font-size: 75px;
+}
+
+.police_norm
+{
+	font-size: 40px;
+}
+
+.police_small
+{
+	font-size: 25px;
+}
+
+#soumettre
+{
+    margin-left: 3.3%; 
+    font-family: 'GreatVictorian-Standard'; 
+    font-size:20px;
+}
+
+@font-face {
+
+    font-family: 'GreatVictorian-Standard';
+
+    src: url('police/GreatVictorian-Standard.otf');
+
+}
+
+header
+{
+    margin-left:10%;
+    font-family: 'GreatVictorian-Standard',Georgia, serif;
+}
+
+header #rubrique
+{
+    display: flex;
+    margin-bottom: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+   
+}
+header h2
+{
+    margin-top: 20px;
+    width: 750px;
+    margin-right: 20px;
+}
+header h2 a
+{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+#rubrique input
+{
+    height: 20px; 
+    margin-top: 32px;
+    background-color: #AD8D54;
+}
+#barreRecherche
+{
+    width: 200px; 
+    height: 25px; 
+    margin-top: 20px; 
+}
+#boutonRecherche
+{
+    margin-top: 22px; 
+    width: 70px; 
+    height: 30px;
+}
+
+#rubrique a:hover
+{
+    text-decoration: none;
+	color: black;
+}
+#nomSite
+{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#bouton_recherche
+{
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  border: solid thin #929292;
+  text-shadow: none;
+  background: #AD8D54;   
+  padding: 3px 8px;
+  margin: 2px;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 13.1999998092651px;
+  margin-top: 20px;
+  color: black;
+  border: 2px #545C64 solid;
+  background-color: #AD8D54;
+  height: 18px; 
+  margin-top: 32px; 
+  padding-top: 4px; 
+  padding-bottom: 0px;
+}
+#lienRecherche
+{   
+    text-align: center; 
+    text-decoration: none; 
+    color: black;
+	border: 2px #545C64 solid;
+	background-color: #AD8D54;
+    height: 22px; 
+    margin-left: 0px; 
+    margin-top: 32px; 
+    padding-bottom: 0px; 
+    padding-top: 0px; 
+    width: 25px;
+}
+header div input
+{
+	color: black;
+	border: 2px #545C64 solid;
+	background-color: black;
+}
+
+
+
+footer
+{
+    width: 80%;
+    margin-left: 10%;
+}
+
+footer
+{
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'GreatVictorian-Standard',Georgia, serif;
+    font-size: 25px;
+}
+
+#partie_gauche
+{
+    width: 33%;
+    text-align: center;
+	color: #AD8D54;
+    text-shadow: 0px 0px 2px #545C64;
+}
+
+.partie_droite
+{
+    width: 33%;
+}
+.partie_droite p
+{
+    font-weight: bold; 
+    margin-bottom: 2px;
+    margin-bottom: 20px;
+	color: #AD8D54;
+    text-shadow: 0px 0px 2px #545C64;
+}
+.partie_droite a
+{
+	color: #AD8D54;
+    text-shadow: 0px 0px 2px #545C64;
+    text-decoration: none;
+}
+.partie_droite a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+footer div img
+{
+    width:10%;
+    height:30px;
+    border:0;
+    margin-left: 15px;
+}
+.logo
+{
+    width: 12%;
+    height: 35px;
+    border: 0;
+}
+#paypal
+{
+    width: 28%;
+    height: 35px;
+    border: 0;
+}
+#haut
+{
+    display: flex;
+}
+footer input
+{
+	color: black;
+	border: 2px #545C64 solid;
+    background-color: #AD8D54;
+    
+}

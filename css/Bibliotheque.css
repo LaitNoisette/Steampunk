@@ -1,0 +1,159 @@
+/*=============================================
+=            Apparence de la page             =
+=============================================*/
+
+html /*fond d'écran (fixe)*/
+{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body /*Centrage du body*/
+{
+    width: 80%;
+    margin-left: 10%;
+}
+
+main /*Hauteur de la page*/
+{
+    height: 1000px;
+}
+
+h1
+{
+    color: #AD8D54;
+}
+
+
+/*=============================================
+= Mise en forme du Menu de Navigation latéral =
+=============================================*/
+
+nav /*Mise en forme des menus et sous menus*/
+{
+    padding: 1%; /*Pas de marge*/
+    margin: 2%;/*Pas de marge*/
+    margin-left: 5%;
+    list-style: none;/*Pas de puces*/
+    line-height: 21px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;/*changement de police*/
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+}
+
+nav a:hover
+{
+    background-color: #492221;
+}
+
+nav ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 21px;
+    text-align: center;
+}
+
+nav a /*Mise en forme des mises liens dans les menus*/
+{
+    display: block;/*les liens sont considérés comme un block*/
+    padding: 0;
+    text-decoration: none; /*enlève le soulignement des liens*/
+    color: white;
+    background-color: #93744E;
+}
+
+nav ul li a
+{
+    color: white;
+    padding: 1%;
+    width: 120%;
+    margin-left:0%;
+    margin-top: 0%;
+    float: right;
+}
+
+.Categorie
+{
+    border: 1px solid #492221;
+}
+
+nav ul li a h1
+{
+    border-bottom: 1px solid #492221;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+
+/*=============================================
+=   Mise en forme des blocs liens de livres   =
+=============================================*/
+
+/*Mise en forme des bloc-liens des livres*/
+a
+{
+    color: black;
+    text-decoration: none; /*Retrait de la mise en forme typique des liens*/
+
+}
+
+/*Mise en forme du bloc*/
+.demo
+{
+    border: 3px solid black;
+    margin: 3%;
+    margin-right: 5%;
+    height: 30%;
+    transition: 1s ease;
+    width: 70%;
+    float: right;
+    color: #AD8D54;
+    background-color: #492221;
+
+}
+
+.demo:hover
+{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+/*Mise en forme du titre des livres dans les bloc-liens*/
+.demo h1
+{
+    padding-left: 1%;
+    font-size: 1.8em;
+}
+
+/*Mise en forme du texte dans les bloc-liens*/
+.demo p
+{
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+/*Mise en forme des images des livres dans les bloc-liens*/
+.livredemo
+{
+    height: 47%;
+    width: 11%;
+    margin: 1%;
+    float: left;
+}
+
+section h1
+{
+    text-align: center;
+}
+
+.boutonpage
+{
+    padding: 500px;
+}

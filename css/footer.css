@@ -1,0 +1,67 @@
+footer
+{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#partie_gauche
+{
+    width: 33%;
+    text-align: center;
+	color: #AD8D54;
+    text-shadow: 0px 0px 2px #545C64;
+}
+
+.partie_droite
+{
+    width: 33%;
+}
+.partie_droite p
+{
+    font-weight: bold; 
+    margin-bottom: 2px;
+    margin-bottom: 20px;
+	color: #AD8D54;
+    text-shadow: 0px 0px 2px #545C64;
+}
+.partie_droite a
+{
+	color: #AD8D54;
+    text-shadow: 0px 0px 2px #545C64;
+    text-decoration: none;
+}
+.partie_droite a:hover
+{
+    text-decoration: none;
+    color: #AD8D54;
+}
+footer div img
+{
+    width:10%;
+    height:30px;
+    border:0;
+    margin-left: 15px;
+}
+.logo
+{
+    width: 12%;
+    height: 35px;
+    border: 0;
+}
+#paypal
+{
+    width: 28%;
+    height: 35px;
+    border: 0;
+}
+#haut
+{
+    display: flex;
+}
+footer input
+{
+	color: #545C64;
+	border: 2px #545C64 solid;
+    background-color: #AD8D54;
+    
+}
